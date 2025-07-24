@@ -16,6 +16,8 @@ pushover_url = "https://api.pushover.net/1/messages.json"
 
 openai = OpenAI()
 
+print("If you are not Arnav Thakrar and want to use this for yourself, make sure to update the me folder with your own data. Also, change the name variable to be your own name not mine.")
+
 reader = PdfReader("me/linkedin.pdf")
 linkedin = ""
 for page in reader.pages:
